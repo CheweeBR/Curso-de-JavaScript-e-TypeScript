@@ -18,10 +18,13 @@ function iniciaRelogio() {
 }
 
 function Iniciar() {
+  relogio.classList.remove("pausar");
+  clearInterval(timer);
   iniciaRelogio();
 }
 
 function Pausar() {
+  relogio.classList.add("pausar");
   clearInterval(timer);
 }
 
