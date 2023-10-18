@@ -64,6 +64,29 @@ body {
     border-radius: 5px;
     border: 3px solid #343434;
 }
-.pausar {
-    color: red;
+
+.botaoChecar{
+    color: white;
+    margin-left: 20px;
+    background-color: #737373;
+    border-radius: 5px;
+    border: 1px solid #343434;
+    transition: 0.2s;
+}
+
+.botaoChecar:hover{
+    color: white;
+    margin-left: 20px;
+    background-color: #949393;
+}
+
+.liStyle {
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.liStyleDone {
+    color: white;
+    font-family: "Inter", sans-serif;
+    text-decoration: line-through;
 }
