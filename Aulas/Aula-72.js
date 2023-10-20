@@ -1,4 +1,4 @@
-// Closures
+// Closures = habilidade da função em acessar os escopos lexicos.
 
 function criaOutraFuncao() {
     const nome = 'Tiago'
