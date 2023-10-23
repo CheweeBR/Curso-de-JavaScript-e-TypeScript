@@ -1,0 +1,100 @@
+body {
+    width: 100%;
+    background-color: #262626;
+    font-family: 'Inter', sans-serif;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-Calc{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    background-color: #585858;
+    border-radius: 10px;
+    border: 5px solid #343434;
+}
+
+#frasePrincipal {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.Calculadora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.InputNumber{
+    width: 96%;
+    height: 40px;
+    text-align: right;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: #807d7d;
+    border-radius: 5px;
+    border: 3px solid #464646;
+}
+
+.bt-num {
+    width: 60px;
+    height: 45px;
+    color: white;
+    background-color: #262626;
+    border-radius: 5px;
+    border: 3px solid #343434;
+    transition: 0.2s;
+    font-size: large;
+}
+
+.bt-num:hover {
+    color: white;
+    background-color: #515151;
+    border-radius: 5px;
+    border: 3px solid #464646;
+}
+
+.bt-num:active {
+    color: white;
+    background-color:  #706f6f;
+    border-radius: 5px;
+    border: 2.5px solid #464646;
+}
+
+.bt-fun {
+    width: 100%;
+    height: 45px;
+    color: white;
+    background-color: #262626;
+    border-radius: 5px;
+    border: 3px solid #343434;
+    transition: 0.2s;
+    font-size: large;
+}
+
+.bt-fun:hover {
+    color: white;
+    background-color: #515151;
+    border-radius: 5px;
+    border: 3px solid #464646;
+}
+
+.bt-fun:active {
+    color: white;
+    background-color: #706f6f;
+    border-radius: 5px;
+    border: 2.5px solid #464646;
+}
