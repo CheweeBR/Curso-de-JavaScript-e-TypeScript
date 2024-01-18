@@ -10,7 +10,7 @@ console.log(somaTotal);
 const somaTotalObjetos = number.reduce((acumulador, valor, indice) => indice + 1);
 console.log(somaTotalObjetos);
 
-const TotalPares = number.reduce((acumulador=0, valor) => {
+const TotalPares = number.reduce((acumulador, valor) => {
     if(valor % 2 == 0){
         acumulador++;
     } 
@@ -25,3 +25,12 @@ const RickAndMorty = [
     {name: 'Summer', age: 17},
     {name: 'Beth', age: 34}
 ];
+
+const maisNovo = RickAndMorty.reduce((acumulador, valor) => {
+    if(acumulador.age < valor.age) {
+        return acumulador;
+    } 
+    return valor;
+})
+
+console.log(maisNovo);
