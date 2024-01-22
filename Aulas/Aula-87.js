@@ -12,9 +12,7 @@ const numerosPares = number.filter((valor) => {
 
 // or
 
-const numerosPares2 = number.filter((valor) => {
-    return valor % 2 == 0;
-})
+const numerosParesSimple = number.filter((valor => valor % 2 == 0)).map((valor => valor * 2)).reduce((acumulador, valor) => acumulador+=valor);
 
 console.log(numerosPares);
-console.log(numerosPares2);
+console.log(numerosParesSimple);
