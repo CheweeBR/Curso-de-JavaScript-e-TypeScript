@@ -28,3 +28,8 @@ async function executa() {
 }
 
 executa();
+
+// estados:
+// peding -> pendente
+// fullfield -> executada
+// reject -> rejeitada
